@@ -43,7 +43,7 @@ export default {
   border 5px #003086 solid
   img
     float left
-    margin 20px 0 0 30px
+    margin 8px
   .el-dropdown
     height 60px
     line-height 60px
