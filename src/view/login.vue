@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <el-form  :model="login" class="login-form" ref="login" label-position="left" :rules="rules">
-      <h2 class="title">基层文化站点管理系统</h2>
+      <h2 class="title">迎新管理系统</h2>
       <div class="container">
         <img class="logo" src="./logo.png" alt="">
         <el-form-item prop="name">

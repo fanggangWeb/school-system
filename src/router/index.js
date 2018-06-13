@@ -23,7 +23,14 @@ export const stateRoute = [
   }
 ]
 // 以后的动态路由
-export const activeRoute = []
+export const activeRoute = [
+  {
+    path: '/yingxin',
+    name: '迎新配置',
+    component: home,
+    children: [{path: 'dashboard', component: _import('yingxin/index')}]
+  }
+]
 export default new Router({
   routes: stateRoute
 })

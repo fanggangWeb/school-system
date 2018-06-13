@@ -60,4 +60,5 @@ export default {
 .aside
   background-color #224B95
   text-align left
+  color white
 </style>
